@@ -9,8 +9,8 @@ const Header = () => {
                     <Logo />
 
                     <nav>
-                        <StyledLink to="/" >Home</StyledLink>
-                        <StyledLink to="/shop" >Shop</StyledLink>
+                        <StyledLink to="/">Home</StyledLink>
+                        <StyledLink to="/shop">Shop</StyledLink>
                         <StyledLink to="/cart">Cart</StyledLink>
                     </nav>
                 </Container>

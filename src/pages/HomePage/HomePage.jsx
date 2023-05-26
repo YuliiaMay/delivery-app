@@ -1,6 +1,11 @@
+import Hero from "../../components/SharedLayout/Hero/Hero";
+
+
 const HomePage = () => {
     return ( 
-        <div>HomePage</div>
+        <>
+            <Hero/>
+        </>
     );
 }
 
