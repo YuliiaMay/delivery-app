@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const FooterBox = styled.footer`
     padding-top: 16px;
     padding-bottom: 16px;
+    position: relative;
 `;
 
 export const Container = styled.div`
-    position: relative;
+    
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;

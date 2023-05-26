@@ -8,9 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-  min-height: 500px;
-}
+/* main {
+  min-height: 800px;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

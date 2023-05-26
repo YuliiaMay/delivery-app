@@ -7,6 +7,7 @@ const Footer = () => {
     return ( 
         <FooterBox>
             <Container>
+                {/* <div> */}
                 <Logo />
                 <Form>
                     <Label htmlFor="email">Stay in the loop</Label>
@@ -17,8 +18,10 @@ const Footer = () => {
                         </BtnContent>
                     </Button>
                 </Form>
-            </Container>
 
+                {/* </div> */}
+
+            </Container>
 
             <BottomBackground src={bottomBackground} alt="background" />
         </FooterBox>

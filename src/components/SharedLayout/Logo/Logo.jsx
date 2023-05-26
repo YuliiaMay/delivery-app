@@ -1,4 +1,4 @@
-import logo from "../../../images/logo/logo.png";
+import logo from "../../../images/logo/logo-img.png";
 import { LogoIcon } from "./Logo.styled";
 
 const Logo = () => {
