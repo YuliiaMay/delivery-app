@@ -15,3 +15,15 @@ export const Container = styled.div`
     // justify-content: space-between;
     // align-items: center;
 `;
+
+export const Title = styled.h1`
+    font-family: M PLUS Rounded 1c;
+    font-weight: 500;
+    margin-bottom: 36px;
+`;
+
+export const Description = styled.h1`
+    font-family: M PLUS Rounded 1c;
+    font-weight: 300;
+    margin-bottom: 30px;
+`;

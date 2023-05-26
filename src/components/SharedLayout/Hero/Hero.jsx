@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import heroImg from "../../../images/home/hero-img.png"
-import { HeroBox, Container } from "./Hero.styled";
+import { HeroBox, Container, Title, Description } from "./Hero.styled";
 
 
 
@@ -9,9 +9,9 @@ const Hero = () => {
         <HeroBox>
             <Container>
                 <div>
-                    <h1>Yummy food delivery for every day.</h1>
-                    <p>A wide selection of dishes from the chef: breakfast, pasta, pizza, meat, poultry and fish, desserts. Order your favorite dishes without leaving your home.</p>
-                    <p>You will be shocked at the speed of delivery!</p>
+                    <Title>Yummy! Food delivery for every day.</Title>
+                    <Description>A wide selection of dishes from the chef: breakfast, pasta, pizza, meat, poultry and fish, desserts. Order your favorite dishes without leaving your home.</Description>
+                    <Description>You will be shocked at the speed of delivery!</Description>
                     <Link to="/shop">
                         Go shopping!
                     </Link>
