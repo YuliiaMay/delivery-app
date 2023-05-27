@@ -1,0 +1,145 @@
+[
+    {
+        "name":"Pizza",
+        "price":0,
+        "imgsrc":"https://pizza.od.ua/upload/iblock/c38/c3892880079c75e426a603d95ba7d874.jpg",
+        "id":1,
+        "isMostOrdered":true,
+        "quantity":0
+    },
+
+    {
+        "name":"Burger",
+        "price":0,
+        "imgsrc":"https://media.istockphoto.com/id/954812062/photo/traditional-hamburger-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=Fbs_3ARP83L2A7upUxbytK5yuXWXNGTZ9g4_HP8FwSk=",
+        "id":2,
+        "isMostOrdered":true,
+        "quantity":0
+    },
+
+    {
+        "name":"Fries",
+        "price":0,
+        "imgsrc":"https://rare-gallery.com/uploads/posts/861172-Roast-Chicken-French-fries-White-background-Plate.jpg",
+        "id":3,
+        "isMostOrdered":false,
+        "quantity":0
+    },
+
+    {
+        "name":"Italian",
+        "price":0,
+        "imgsrc":"https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+        "id":4,
+        "isMostOrdered":true,
+        "quantity":0
+    },
+
+    {
+        "name":"Icecreams",
+        "price":0,
+        "imgsrc":"https://images.pexels.com/photos/461430/pexels-photo-461430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+        "id":5,
+        "isMostOrdered":false,
+        "quantity":0
+    },
+
+    {
+        "name":"Juice",
+        "price":0,
+        "imgsrc":"https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+        "id":6,
+        "isMostOrdered":false,
+        "quantity":0
+    },
+
+    {
+        "name":"Syrnyky",
+        "price":0,
+        "imgsrc":"https://telegraf.com.ua/static/storage/thumbs/1080x1080/0/64/8c8a57c1-58219a8c2aab2054205a3249df7d2640.jpeg?v=7105_1",
+        "id":7,
+        "isMostOrdered":false,
+        "quantity":0 
+    },
+    {
+        "name":"Dosa",
+        "price":0,
+        "imgsrc":"https://images.pexels.com/photos/221143/pexels-photo-221143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "id":8,
+        "isMostOrdered":true,
+        "quantity":0 
+    },
+
+    {
+        "name":"Pumpkin soup",
+        "price":0,
+        "imgsrc":"https://images.immediate.co.uk/production/volatile/sites/30/2017/11/Vegetable-soup-recipes-1eb6583.jpg?quality=90&resize=556,505",
+        "id":9,
+        "isMostOrdered":false,
+        "quantity":0 
+    },
+    {
+        "name":"Frankie",
+        "price":0,
+        "imgsrc":"https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "id":10,
+        "isMostOrdered":true,
+        "quantity":0 
+    },
+
+    {
+        "name":"Bread",
+        "price":0,
+        "imgsrc":"https://www.mysugarfreekitchen.com/wp-content/uploads/2020/08/Dairy-Free-Banana-Bread-17.jpg",
+        "id":11,
+        "isMostOrdered":true,
+        "quantity":0 
+        },
+
+    {
+        "name":"Doughnuts",
+        "price":0,
+        "imgsrc":"https://goldbelly.imgix.net//uploads/showcase_media_asset/image/166545/Doughnut-Plant-Donuts-3.30.22-17-72ppi-1x1.jpg",
+        "id":12,
+        "isMostOrdered":false,
+        "quantity":0 
+    },
+
+    {
+        "name":"naan",
+        "price":0,
+        "imgsrc":"https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "id":13,
+        "isMostOrdered":false,
+        "quantity":0 
+    },
+
+    {
+        "name":"cakes",
+        "price":0,
+        "imgsrc":"https://images.pexels.com/photos/69817/france-confectionery-raspberry-cake-fruit-69817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "id":14,
+        "isMostOrdered":true,
+        "quantity":0 
+    },
+
+    {
+        "name":"Fruits",
+        "price":12,
+        "imgsrc":"https://m.media-amazon.com/images/I/61Kke1+ZRcL.jpg",
+        "id":15,
+        "isMostOrdered":true,
+        "quantity":0 
+    },
+
+    {
+        "name":"Sandwich",
+        "price":3,
+        "imgsrc":"http://localhost:5173/delivery-app/src/images/home/hero-img.png",
+        "id":16,
+        "isMostOrdered":true,
+        "quantity":0 
+    }
+
+
+]

@@ -23,9 +23,7 @@ export const InfoBlock = styled.div`
     width: 600px;
     padding: 30px;
     background-color: #ffffffae;
-    // border-radius: 50px;
     border-radius: 10% 50% 5% 15%;
-
 `;
 
 export const Title = styled.h1`

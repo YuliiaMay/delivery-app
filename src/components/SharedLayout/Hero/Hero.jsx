@@ -7,7 +7,6 @@ const Hero = () => {
     return ( 
         <HeroBox>
             <Container>
-                
                 <InfoBlock>
                     <Title>Yummy Food! <br/> Delivery for every day!</Title>
                     <TextAbout>A wide selection of dishes from the chef: breakfast, pasta, pizza, meat, poultry and fish, desserts. Order your favorite dishes without leaving your home.</TextAbout>
