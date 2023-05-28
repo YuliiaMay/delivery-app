@@ -1,8 +1,10 @@
-import { Card, ProductImg, InfoBox, ProductName, Price, Button } from "./ProductItem.styled";
+import { useState } from "react";
+import { Card, ProductImg, InfoBox, ProductName, Price, Button, OrderBox, AmountInput } from "./ProductItem.styled";
 
 
 
 const ProductItem = ({ name, price, quantity, isMostOrdered, id, img }) => {
+    const [amount, setAmount] = useState(0);
     return ( 
         <Card>
             <ProductImg src={img} alt="product photo" />
@@ -10,7 +12,11 @@ const ProductItem = ({ name, price, quantity, isMostOrdered, id, img }) => {
                 <ProductName>{name}</ProductName>
                 <Price>{price} $</Price>
             </InfoBox>
-            <Button>Order</Button>
+            <OrderBox>
+                <Button>Order</Button>
+                <AmountInput type="number" value={amount}/>
+            </OrderBox>
+
 
         </Card>
     );

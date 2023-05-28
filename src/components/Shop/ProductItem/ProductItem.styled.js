@@ -24,9 +24,7 @@ export const ProductImg = styled.img`
     border-bottom: 4px solid #EBF00E;
 `;
 
-
 export const InfoBox = styled.div`
-    // height: 80px;
     padding-left: 22px;
     padding-right: 22px;
     font-family: Pangolin;
@@ -35,8 +33,6 @@ export const InfoBox = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-
 `;
 
 export const ProductName = styled.p`
@@ -47,19 +43,41 @@ export const Price = styled.p`
     color: #6F0518;
 `;
 
-export const Button = styled.button`
-    margin-left: auto;
-    margin-right: auto;
+export const OrderBox = styled.div`
+    padding-left: 22px;
+    padding-right: 22px;
+    font-family: Pangolin;
+    font-size: 32px;
+    line-height: calc(42 / 32);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 12px;
-    background-color: #fff;
+`;
+
+export const Button = styled.button`
+    background-color: rgba(235, 240, 14, 0.23);
     border: 2px solid #EBF00E;
     border-radius: 12px;
-    width: 300px;
+    width: 100px;
     height: 36px;
+    text-transform: uppercase;
+    color: #F60C36;
+    font-size: 18px;
+    font-family: Pangolin;
 
     &:hover,
     &:focus {
-        background-color: rgba(241, 33, 45, 0.7);
+        background-color: rgba(235, 240, 14, 1);
         border: 2px solid #fff;
+        // color: #fff;
     }
+`;
+
+export const AmountInput = styled.input`
+    width: 50px;
+    text-align: center;
+        color: #F60C36;
+    font-size: 18px;
+    font-family: Pangolin;
 `;

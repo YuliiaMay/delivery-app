@@ -3,7 +3,7 @@
         "name":"Pizza",
         "price":0,
         "imgsrc":"https://pizza.od.ua/upload/iblock/c38/c3892880079c75e426a603d95ba7d874.jpg",
-        "id":1,
+        "id":5,
         "isMostOrdered":true,
         "quantity":0
     },
@@ -12,14 +12,14 @@
         "name":"Burger",
         "price":0,
         "imgsrc":"https://media.istockphoto.com/id/954812062/photo/traditional-hamburger-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=Fbs_3ARP83L2A7upUxbytK5yuXWXNGTZ9g4_HP8FwSk=",
-        "id":2,
+        "id":3.5,
         "isMostOrdered":true,
         "quantity":0
     },
 
     {
         "name":"Fries",
-        "price":0,
+        "price":3,
         "imgsrc":"https://rare-gallery.com/uploads/posts/861172-Roast-Chicken-French-fries-White-background-Plate.jpg",
         "id":3,
         "isMostOrdered":false,
@@ -27,9 +27,9 @@
     },
 
     {
-        "name":"Italian",
+        "name":"Pasta Primavera",
         "price":0,
-        "imgsrc":"https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+        "imgsrc":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/3/1/0/FNM_040111-WN-Dinners-030_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371595164628.jpeg",
         "id":4,
         "isMostOrdered":true,
         "quantity":0
@@ -45,9 +45,9 @@
     },
 
     {
-        "name":"Juice",
-        "price":0,
-        "imgsrc":"https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+        "name":"Orange Juice",
+        "price":2,
+        "imgsrc":"https://draxe.com/wp-content/uploads/2022/12/DrAxeOrangeJuiceThumbnail.jpg",
         "id":6,
         "isMostOrdered":false,
         "quantity":0
@@ -55,7 +55,7 @@
 
     {
         "name":"Syrnyky",
-        "price":0,
+        "price":4,
         "imgsrc":"https://telegraf.com.ua/static/storage/thumbs/1080x1080/0/64/8c8a57c1-58219a8c2aab2054205a3249df7d2640.jpeg?v=7105_1",
         "id":7,
         "isMostOrdered":false,
@@ -72,7 +72,7 @@
 
     {
         "name":"Pumpkin soup",
-        "price":0,
+        "price":4.5,
         "imgsrc":"https://images.immediate.co.uk/production/volatile/sites/30/2017/11/Vegetable-soup-recipes-1eb6583.jpg?quality=90&resize=556,505",
         "id":9,
         "isMostOrdered":false,
@@ -89,7 +89,7 @@
 
     {
         "name":"Bread",
-        "price":0,
+        "price":3,
         "imgsrc":"https://www.mysugarfreekitchen.com/wp-content/uploads/2020/08/Dairy-Free-Banana-Bread-17.jpg",
         "id":11,
         "isMostOrdered":true,
@@ -98,7 +98,7 @@
 
     {
         "name":"Doughnuts",
-        "price":0,
+        "price":7,
         "imgsrc":"https://goldbelly.imgix.net//uploads/showcase_media_asset/image/166545/Doughnut-Plant-Donuts-3.30.22-17-72ppi-1x1.jpg",
         "id":12,
         "isMostOrdered":false,
@@ -115,9 +115,9 @@
     },
 
     {
-        "name":"cakes",
-        "price":0,
-        "imgsrc":"https://images.pexels.com/photos/69817/france-confectionery-raspberry-cake-fruit-69817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "name":"Cheesecake",
+        "price":3,
+        "imgsrc":"https://www.twosisterscrafting.com/wp-content/uploads/2021/02/no-bake-cherry-cheesecake-featured.jpg",
         "id":14,
         "isMostOrdered":true,
         "quantity":0 
@@ -134,12 +134,29 @@
 
     {
         "name":"Sandwich",
-        "price":3,
+        "price":4,
         "imgsrc":"http://localhost:5173/delivery-app/src/images/home/hero-img.png",
         "id":16,
         "isMostOrdered":true,
         "quantity":0 
-    }
+    },
 
+    {
+        "name":"Poke Bowl",
+        "price":8,
+        "imgsrc":"https://images.themodernproper.com/billowy-turkey/production/posts/2021/Poke-Bowl-11.jpeg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1644553103&s=e3d80debf17159866b52147db4167ef7",
+        "id":18,
+        "isMostOrdered":true,
+        "quantity":0 
+    },
+
+    {
+        "name":"Greek salad",
+        "price":6,
+        "imgsrc":"https://assets.bonappetit.com/photos/63f677cccd25bfbd2dccfaae/1:1/w_3191,h_3191,c_limit/022223-greek-salad-lede.jpg",
+        "id":17,
+        "isMostOrdered":true,
+        "quantity":0 
+    }
 
 ]
