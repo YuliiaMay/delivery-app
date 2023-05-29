@@ -99,12 +99,12 @@
         "quantity":0 
     },
     {
-        "name":"Dosa",
+        "name":"Borsch",
         "price":0,
-        "imgsrc":"https://images.pexels.com/photos/221143/pexels-photo-221143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "imgsrc":"https://img.freepik.com/premium-photo/bowl-of-beet-root-soup-borsch-isolated-on-white-background_93675-139433.jpg",
         "id":11,
         "isMostOrdered":true,
-        "category": [""],
+        "category": ["ukrainian", "soup"],
         "quantity":0 
     },
 
@@ -114,7 +114,7 @@
         "imgsrc":"https://images.immediate.co.uk/production/volatile/sites/30/2017/11/Vegetable-soup-recipes-1eb6583.jpg?quality=90&resize=556,505",
         "id":12,
         "isMostOrdered":false,
-        "category": [""],
+        "category": ["soup"],
         "quantity":0 
     },
     {
