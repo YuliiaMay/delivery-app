@@ -1,46 +1,81 @@
 [
     {
-        "name":"Pizza",
-        "price":0,
+        "name":"Pizza Classic",
+        "price":10,
         "imgsrc":"https://pizza.od.ua/upload/iblock/c38/c3892880079c75e426a603d95ba7d874.jpg",
-        "id":5,
+        "id":1,
         "isMostOrdered":true,
+        "category": ["pizza"],
+        "quantity":0
+    },
+
+        {
+        "name":"Pepperoni Pizza",
+        "price":9,
+        "imgsrc":"https://img.freepik.com/premium-photo/fresh-tasty-pizza-with-pepperoni-isolated-white-background-top-view_136401-3864.jpg",
+        "id":2,
+        "isMostOrdered":true,
+        "category": ["pizza"],
+        "quantity":0
+    },
+
+        {
+        "name":"Vegetarian Pizza",
+        "price":9,
+        "imgsrc":"https://i.pinimg.com/736x/d0/63/dd/d063dd281dad0b983ac1caba4308dfbf.jpg",
+        "id":3,
+        "isMostOrdered":true,
+        "category": ["pizza", "vegetarian"],
         "quantity":0
     },
 
     {
-        "name":"Burger",
-        "price":0,
+        "name":"Homemade Burger",
+        "price":5,
         "imgsrc":"https://media.istockphoto.com/id/954812062/photo/traditional-hamburger-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=Fbs_3ARP83L2A7upUxbytK5yuXWXNGTZ9g4_HP8FwSk=",
-        "id":3.5,
+        "id":4,
         "isMostOrdered":true,
+        "category": ["homemade", "burger"],
+        "quantity":0
+    },
+
+    {
+        "name":"Beef Burger",
+        "price":9,
+        "imgsrc":"https://s3.envato.com/files/344523232/FZ0A6649.jpg",
+        "id":5,
+        "isMostOrdered":true,
+        "category": ["burger"],
         "quantity":0
     },
 
     {
         "name":"Fries",
-        "price":3,
+        "price":6,
         "imgsrc":"https://rare-gallery.com/uploads/posts/861172-Roast-Chicken-French-fries-White-background-Plate.jpg",
-        "id":3,
+        "id":6,
         "isMostOrdered":false,
+        "category": ["homemade"],
         "quantity":0
     },
 
     {
         "name":"Pasta Primavera",
-        "price":0,
+        "price":8,
         "imgsrc":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/3/1/0/FNM_040111-WN-Dinners-030_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371595164628.jpeg",
-        "id":4,
+        "id":7,
         "isMostOrdered":true,
+        "category": ["italian"],
         "quantity":0
     },
 
     {
-        "name":"Icecreams",
-        "price":0,
-        "imgsrc":"https://images.pexels.com/photos/461430/pexels-photo-461430.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
-        "id":5,
+        "name":"Napoleon Cake",
+        "price":6,
+        "imgsrc":"https://previews.123rf.com/images/alisafarov/alisafarov1702/alisafarov170200198/72220063-puff-pastry-napoleon-cake-isolated-on-a-white-background-selective-focus.jpg",
+        "id":8,
         "isMostOrdered":false,
+        "category": ["dessert"],
         "quantity":0
     },
 
@@ -48,8 +83,9 @@
         "name":"Orange Juice",
         "price":2,
         "imgsrc":"https://draxe.com/wp-content/uploads/2022/12/DrAxeOrangeJuiceThumbnail.jpg",
-        "id":6,
+        "id":9,
         "isMostOrdered":false,
+        "category": ["drinks"],
         "quantity":0
     },
 
@@ -57,16 +93,18 @@
         "name":"Syrnyky",
         "price":4,
         "imgsrc":"https://telegraf.com.ua/static/storage/thumbs/1080x1080/0/64/8c8a57c1-58219a8c2aab2054205a3249df7d2640.jpeg?v=7105_1",
-        "id":7,
+        "id":10,
         "isMostOrdered":false,
+        "category": ["ukrainian", "dessert"],
         "quantity":0 
     },
     {
         "name":"Dosa",
         "price":0,
         "imgsrc":"https://images.pexels.com/photos/221143/pexels-photo-221143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "id":8,
+        "id":11,
         "isMostOrdered":true,
+        "category": [""],
         "quantity":0 
     },
 
@@ -74,16 +112,18 @@
         "name":"Pumpkin soup",
         "price":4.5,
         "imgsrc":"https://images.immediate.co.uk/production/volatile/sites/30/2017/11/Vegetable-soup-recipes-1eb6583.jpg?quality=90&resize=556,505",
-        "id":9,
+        "id":12,
         "isMostOrdered":false,
+        "category": [""],
         "quantity":0 
     },
     {
         "name":"Frankie",
         "price":0,
         "imgsrc":"https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "id":10,
+        "id":13,
         "isMostOrdered":true,
+        "category": [""],
         "quantity":0 
     },
 
@@ -91,8 +131,9 @@
         "name":"Bread",
         "price":3,
         "imgsrc":"https://www.mysugarfreekitchen.com/wp-content/uploads/2020/08/Dairy-Free-Banana-Bread-17.jpg",
-        "id":11,
+        "id":14,
         "isMostOrdered":true,
+        "category": [],
         "quantity":0 
         },
 
@@ -100,17 +141,19 @@
         "name":"Doughnuts",
         "price":7,
         "imgsrc":"https://goldbelly.imgix.net//uploads/showcase_media_asset/image/166545/Doughnut-Plant-Donuts-3.30.22-17-72ppi-1x1.jpg",
-        "id":12,
+        "id":15,
         "isMostOrdered":false,
+        "category": ["dessert"],
         "quantity":0 
     },
 
     {
-        "name":"naan",
+        "name":"Vareniki with meat",
         "price":0,
-        "imgsrc":"https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "id":13,
+        "imgsrc":"https://s3.envato.com/files/326250274/3983.jpg",
+        "id":16,
         "isMostOrdered":false,
+        "category": ["ukrainian"],
         "quantity":0 
     },
 
@@ -118,8 +161,9 @@
         "name":"Cheesecake",
         "price":3,
         "imgsrc":"https://www.twosisterscrafting.com/wp-content/uploads/2021/02/no-bake-cherry-cheesecake-featured.jpg",
-        "id":14,
+        "id":17,
         "isMostOrdered":true,
+        "category": ["dessert"],
         "quantity":0 
     },
 
@@ -127,8 +171,9 @@
         "name":"Fruits",
         "price":12,
         "imgsrc":"https://m.media-amazon.com/images/I/61Kke1+ZRcL.jpg",
-        "id":15,
+        "id":18,
         "isMostOrdered":true,
+        "category": ["dessert"],
         "quantity":0 
     },
 
@@ -136,8 +181,9 @@
         "name":"Sandwich",
         "price":4,
         "imgsrc":"http://localhost:5173/delivery-app/src/images/home/hero-img.png",
-        "id":16,
+        "id":19,
         "isMostOrdered":true,
+        "category": [],
         "quantity":0 
     },
 
@@ -145,8 +191,9 @@
         "name":"Poke Bowl",
         "price":8,
         "imgsrc":"https://images.themodernproper.com/billowy-turkey/production/posts/2021/Poke-Bowl-11.jpeg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1644553103&s=e3d80debf17159866b52147db4167ef7",
-        "id":18,
+        "id":20,
         "isMostOrdered":true,
+        "category": ["lunch"],
         "quantity":0 
     },
 
@@ -154,8 +201,9 @@
         "name":"Greek salad",
         "price":6,
         "imgsrc":"https://assets.bonappetit.com/photos/63f677cccd25bfbd2dccfaae/1:1/w_3191,h_3191,c_limit/022223-greek-salad-lede.jpg",
-        "id":17,
+        "id":21,
         "isMostOrdered":true,
+        "category": ["lunch", "salad"],
         "quantity":0 
     }
 
