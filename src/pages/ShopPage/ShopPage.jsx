@@ -6,6 +6,7 @@ import Filter from "../../components/Shop/Filter/Filter";
 
 const ShopPage = () => {
     const [menu, setMenu] = useState([]);
+    const [filtredMenu, setFilteredMenu] = useState([]);
     const [tags, setTags] = useState([]);
 
     useEffect(() => {
@@ -30,10 +31,21 @@ const ShopPage = () => {
         getMenu();
     }, []);
 
+    const handleChooseCategory = ({ target }) => {
+        const chooseCategory = target.value;
+        return chooseCategory;
+    };
+
+    const handleFilter = (chooseCategory) => {
+        console.log(chooseCategory);
+    };
+
+
+
     return ( 
         <>
-            <Filter tags={tags} />
-            <MenuList menu={menu} />
+            <Filter tags={tags} onClick={handleChooseCategory} />
+            <MenuList menu={menu} onChange={handleFilter} />
         </>
     );
 }

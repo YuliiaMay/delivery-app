@@ -1,7 +1,7 @@
 import {FiterSection, FiterContainer, TagsList, TagsItem, Tag} from "./Filter.styled";
 
 
-const Filter = ({ tags }) => {
+const Filter = ({ tags, onClick }) => {
     return ( 
         <FiterSection>
             <FiterContainer>
@@ -9,7 +9,12 @@ const Filter = ({ tags }) => {
                     {
                         tags.map(tag => 
                             <TagsItem>
-                                <Tag>{tag}</Tag>
+                                <Tag
+                                    type="button"
+                                    value={tag}
+                                    onClick={onClick}>
+                                    {tag}
+                                </Tag>
                             </TagsItem>
                         )
                     }

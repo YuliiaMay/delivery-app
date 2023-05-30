@@ -28,7 +28,7 @@ export const InfoBox = styled.div`
     padding-left: 22px;
     padding-right: 22px;
     font-family: Pangolin;
-    font-size: 32px;
+    font-size: 28px;
     line-height: calc(42 / 32);
     display: flex;
     flex-direction: row;
@@ -47,7 +47,7 @@ export const OrderBox = styled.div`
     padding-left: 22px;
     padding-right: 22px;
     font-family: Pangolin;
-    font-size: 32px;
+    font-size: 28px;
     line-height: calc(42 / 32);
     display: flex;
     flex-direction: row;

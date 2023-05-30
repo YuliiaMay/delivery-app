@@ -25,7 +25,7 @@ export const TagsItem = styled.li`
     
 `;
 
-export const Tag = styled.a`
+export const Tag = styled.button`
 
     border-radius: 8px;
     padding: 8px;
@@ -40,16 +40,10 @@ export const Tag = styled.a`
         color: #fff;
 
     &:hover,
-    &:focus {
+    &:focus,
+    &:active {
         background-color: #fff;
         border: 2px solid #EBF00E;
         color: #F60C36;
     };
-
-    // &.active {
-    //     background-color: #fff;
-    //     border: 2px solid #EBF00E;
-    //     color: #F60C36;
-    // }
-
 `;

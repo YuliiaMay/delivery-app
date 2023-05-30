@@ -85,7 +85,7 @@
         "imgsrc":"https://draxe.com/wp-content/uploads/2022/12/DrAxeOrangeJuiceThumbnail.jpg",
         "id":9,
         "isMostOrdered":false,
-        "tags": ["drinks"],
+        "tags": ["drinks", "breakfast"],
         "weight":0
     },
 
@@ -95,12 +95,12 @@
         "imgsrc":"https://telegraf.com.ua/static/storage/thumbs/1080x1080/0/64/8c8a57c1-58219a8c2aab2054205a3249df7d2640.jpeg?v=7105_1",
         "id":10,
         "isMostOrdered":false,
-        "tags": ["ukrainian", "dessert"],
+        "tags": ["ukrainian", "dessert", "breakfast"],
         "weight":0 
     },
     {
         "name":"Borsch",
-        "price":0,
+        "price":5,
         "imgsrc":"https://img.freepik.com/premium-photo/bowl-of-beet-root-soup-borsch-isolated-on-white-background_93675-139433.jpg",
         "id":11,
         "isMostOrdered":true,
@@ -134,7 +134,7 @@
         "imgsrc":"https://www.mysugarfreekitchen.com/wp-content/uploads/2020/08/Dairy-Free-Banana-Bread-17.jpg",
         "id":14,
         "isMostOrdered":true,
-        "tags": ["lunch"],
+        "tags": ["lunch", "breakfast"],
         "weight":0 
         },
 
@@ -144,33 +144,33 @@
         "imgsrc":"https://goldbelly.imgix.net//uploads/showcase_media_asset/image/166545/Doughnut-Plant-Donuts-3.30.22-17-72ppi-1x1.jpg",
         "id":15,
         "isMostOrdered":false,
-        "tags": ["dessert"],
+        "tags": ["dessert", "breakfast"],
         "weight":0 
     },
 
     {
         "name":"Vareniki with meat",
-        "price":0,
+        "price":4,
         "imgsrc":"https://s3.envato.com/files/326250274/3983.jpg",
         "id":16,
         "isMostOrdered":false,
-        "tags": ["ukrainian"],
+        "tags": ["ukrainian", "lunch"],
         "weight":0 
     },
 
     {
         "name":"Cheesecake",
-        "price":3,
+        "price":6,
         "imgsrc":"https://www.twosisterscrafting.com/wp-content/uploads/2021/02/no-bake-cherry-cheesecake-featured.jpg",
         "id":17,
         "isMostOrdered":true,
-        "tags": ["dessert"],
+        "tags": ["dessert", "breakfast"],
         "weight":0 
     },
 
     {
         "name":"Fruits",
-        "price":8,
+        "price":10,
         "imgsrc":"https://i5.walmartimages.ca/images/Enlarge/058/930/6000201058930.jpg",
         "id":18,
         "isMostOrdered":true,
@@ -191,10 +191,10 @@
     {
         "name":"Poke Bowl",
         "price":8,
-        "imgsrc":"https://images.themodernproper.com/billowy-turkey/production/posts/2021/Poke-Bowl-11.jpeg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1644553103&s=e3d80debf17159866b52147db4167ef7",
+        "imgsrc":"https://img.freepik.com/premium-photo/isolated-hawaiian-tuna-poke-bowl-white-background_219193-6250.jpg",
         "id":20,
         "isMostOrdered":true,
-        "tags": ["lunch"],
+        "tags": ["lunch", "breakfast"],
         "weight":0 
     },
 
@@ -210,11 +210,11 @@
 
     {
         "name":"Oatmeal",
-        "price":6,
+        "price":7,
         "imgsrc":"https://img.freepik.com/premium-photo/bowl-oatmeal-isolated-white-background-top-view_88281-5736.jpg?w=2000",
         "id":22,
         "isMostOrdered":true,
-        "tags": ["lunch", "salad"],
+        "tags": ["breakfast"],
         "weight":0 
     },
 
@@ -238,24 +238,63 @@
         "weight":0 
     },
 
-        {
+    {
         "name":"Grilled Fish",
-        "price":4.5,
+        "price":10,
         "imgsrc":"https://static.toiimg.com/thumb/54190359.cms?imgsize=113520&width=800&height=800",
         "id":25,
         "isMostOrdered":false,
-        "tags": ["soup", "lunch"],
+        "tags": ["fish", "lunch"],
         "weight":0 
     },
+
+    {
+        "name":"Chicken and Vegetables",
+        "price":12,
+        "imgsrc":"https://media.istockphoto.com/id/1055015208/photo/plate-of-grilled-chicken-with-vegetables-on-wite-background-top-view.jpg?s=612x612&w=0&k=20&c=HxlWLIyqDQAwWzNzNQ2FmxEUVRHg1EuxiTpTYqhvf9U=",
+        "id":26,
+        "isMostOrdered":false,
+        "tags": ["meat", "lunch"],
+        "weight":0 
+    },    
+
+    {
+        "name":"Pork and Vegetables",
+        "price":14,
+        "imgsrc":"https://img.freepik.com/premium-photo/roast-pork-loin-with-herbs-vegetables-white-background-sliced-pork-meat_147620-3151.jpg",
+        "id":27,
+        "isMostOrdered":false,
+        "tags": ["meat", "lunch"],
+        "weight":0 
+    },   
 
     {
         "name":"Meat Salad",
         "price":12,
         "imgsrc":"https://thumbs.dreamstime.com/b/meat-salad-roast-beef-mushrooms-potatoes-onions-mix-spices-isolated-white-background-top-view-vegetables-125108838.jpg",
-        "id":26,
+        "id":28,
         "isMostOrdered":true,
-        "tags": ["lunch", "meat"],
+        "tags": ["lunch", "meat", "salad"],
+        "weight":0
+    },
+
+    {
+        "name":"Praws",
+        "price":16,
+        "imgsrc":"https://www.westend61.de/images/0000203308pw/plate-of-prawns-on-white-background-close-up-MAEF005941.jpg",
+        "id":29,
+        "isMostOrdered":true,
+        "tags": ["fish"],
+        "weight":0 
+    },
+
+    {
+        "name":"Coffee",
+        "price":2,
+        "imgsrc":"https://media.istockphoto.com/id/1152767411/photo/cup-of-coffee-latte-isolated-on-white-background-with-clipping-path.jpg?b=1&s=170667a&w=0&k=20&c=1tI36_1JAgIZyMACa1VgvOyHiXC94Xy1zj0yfMQXo38=",
+        "id":30,
+        "isMostOrdered":true,
+        "tags": ["drinks"],
         "weight":0 
     }
-
 ]

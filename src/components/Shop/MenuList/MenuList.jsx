@@ -2,11 +2,12 @@ import ProductItem from "../ProductItem/ProductItem";
 import { Container, Menu, MenuGallery } from "./MenuList.styled";
 
 
-const MenuList = ({menu}) => {
+const MenuList = ({ menu, onChange }) => {
+    console.log();
     return ( 
         <Menu>
             <Container>
-                <MenuGallery>
+                <MenuGallery onChange={onChange}>
                     {
                         menu.map(({name, price, weight, isMostOrdered, id, imgsrc, category}) =>
                             <ProductItem 
@@ -16,7 +17,7 @@ const MenuList = ({menu}) => {
                                 img={imgsrc}
                                 id={id}
                                 isMostOrdered={isMostOrdered}
-                                // weight={weight}
+                                weight={weight}
                                 category={category}
                             />
                         )

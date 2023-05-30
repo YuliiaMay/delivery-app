@@ -68,5 +68,6 @@ export const GoShopLink = styled(Link)`
 `;
 
 export const HeroImg = styled.img`
-    width: 450px;
+    width: 600px;
+    
 `;
