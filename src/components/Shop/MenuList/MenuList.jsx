@@ -1,15 +1,14 @@
-import menu from "../../../menu.json";
 import ProductItem from "../ProductItem/ProductItem";
 import { Container, Menu, MenuGallery } from "./MenuList.styled";
 
 
-const MenuList = () => {
+const MenuList = ({menu}) => {
     return ( 
         <Menu>
             <Container>
                 <MenuGallery>
                     {
-                        menu.map(({name, price, quantity, isMostOrdered, id, imgsrc}) =>
+                        menu.map(({name, price, weight, isMostOrdered, id, imgsrc, category}) =>
                             <ProductItem 
                                 key={id}
                                 name={name}
@@ -17,7 +16,8 @@ const MenuList = () => {
                                 img={imgsrc}
                                 id={id}
                                 isMostOrdered={isMostOrdered}
-                                quantity={quantity}
+                                // weight={weight}
+                                category={category}
                             />
                         )
                     }

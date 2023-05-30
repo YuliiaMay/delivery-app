@@ -1,27 +1,38 @@
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { fetchMenu } from "../../operations/foodAPI";
 import MenuList from "../../components/Shop/MenuList/MenuList";
+import Filter from "../../components/Shop/Filter/Filter";
 // import { fetchFeedsList } from "../../operations/foodAPI";
 
 const ShopPage = () => {
+    const [menu, setMenu] = useState([]);
+    const [tags, setTags] = useState([]);
 
-    // const [feeds, setFeeds] = useState([]);
-    // useEffect(() => {
-    //     async function getFeeds() {
-    //         try {
-    //             const data = await fetchFeedsList();
-    //             console.log(data);
-    //             setFeeds(data);
-    //         } catch (error) {
-    //             console.log(error);
-    //         }
-    //     } 
+    useEffect(() => {
+        async function getMenu() {
+            try {
+                const data = await fetchMenu();
+                setMenu(data);
 
-    //     getFeeds();
-    // }, [])
+                getTags();
+
+                return data;
+            } catch (error) {
+                console.log(error.message);
+            }
+        }
+
+        getMenu();
+    }, []);
+
+    const getTags = () => {
+        console.log("work");
+    };
 
     return ( 
         <>
-            <MenuList />
+            {/* <Filter menu={menu} /> */}
+            <MenuList menu={menu} />
         </>
     );
 }
