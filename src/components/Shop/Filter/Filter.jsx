@@ -1,17 +1,22 @@
-const Filter = () => {
+import {FiterSection, FiterContainer, TagsList, TagsItem, Tag} from "./Filter.styled";
+
+
+const Filter = ({ tags }) => {
     return ( 
-        <div>
-            <div>
-                <ul>
-                    <li>
-                        <button>Breakfast</button>
-                    </li>
-                    <li>
-                        <button>Breakfast</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <FiterSection>
+            <FiterContainer>
+                <TagsList>
+                    {
+                        tags.map(tag => 
+                            <TagsItem>
+                                <Tag>{tag}</Tag>
+                            </TagsItem>
+                        )
+                    }
+
+                </TagsList>
+            </FiterContainer>
+        </FiterSection>
     );
 }
 

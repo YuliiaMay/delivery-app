@@ -14,7 +14,12 @@ const ShopPage = () => {
                 const data = await fetchMenu();
                 setMenu(data);
 
-                getTags();
+                
+                const uniqueTags = data
+                .flatMap(item => item.tags)
+                .filter((tag, index, array) => array.indexOf(tag) === index);
+                // .sort((a, b) => a.localeCompare(b));   
+                setTags(uniqueTags);
 
                 return data;
             } catch (error) {
@@ -25,13 +30,9 @@ const ShopPage = () => {
         getMenu();
     }, []);
 
-    const getTags = () => {
-        console.log("work");
-    };
-
     return ( 
         <>
-            {/* <Filter menu={menu} /> */}
+            <Filter tags={tags} />
             <MenuList menu={menu} />
         </>
     );

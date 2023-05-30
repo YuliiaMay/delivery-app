@@ -77,7 +77,7 @@ export const Button = styled.button`
 export const AmountInput = styled.input`
     width: 50px;
     text-align: center;
-        color: #F60C36;
+    color: #F60C36;
     font-size: 18px;
     font-family: Pangolin;
 `;

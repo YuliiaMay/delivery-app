@@ -5,7 +5,7 @@
         "imgsrc":"https://pizza.od.ua/upload/iblock/c38/c3892880079c75e426a603d95ba7d874.jpg",
         "id":1,
         "isMostOrdered":true,
-        "category": ["pizza"],
+        "tags": ["pizza"],
         "weight":0
     },
 
@@ -15,7 +15,7 @@
         "imgsrc":"https://img.freepik.com/premium-photo/pepperoni-pizza-white-background_97899-168.jpg?w=2000",
         "id":2,
         "isMostOrdered":true,
-        "category": ["pizza"],
+        "tags": ["pizza"],
         "weight":0
     },
 
@@ -25,7 +25,7 @@
         "imgsrc":"https://i.pinimg.com/736x/d0/63/dd/d063dd281dad0b983ac1caba4308dfbf.jpg",
         "id":3,
         "isMostOrdered":true,
-        "category": ["pizza", "vegetarian"],
+        "tags": ["pizza", "vegetarian"],
         "weight":0
     },
 
@@ -35,7 +35,7 @@
         "imgsrc":"https://media.istockphoto.com/id/954812062/photo/traditional-hamburger-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=Fbs_3ARP83L2A7upUxbytK5yuXWXNGTZ9g4_HP8FwSk=",
         "id":4,
         "isMostOrdered":true,
-        "category": ["burger"],
+        "tags": ["burger"],
         "weight":0
     },
 
@@ -45,7 +45,7 @@
         "imgsrc":"https://s3.envato.com/files/344523232/FZ0A6649.jpg",
         "id":5,
         "isMostOrdered":true,
-        "category": ["burger"],
+        "tags": ["burger"],
         "weight":0
     },
 
@@ -55,7 +55,7 @@
         "imgsrc":"https://rare-gallery.com/uploads/posts/861172-Roast-Chicken-French-fries-White-background-Plate.jpg",
         "id":6,
         "isMostOrdered":false,
-        "category": ["lunch"],
+        "tags": ["lunch"],
         "weight":0
     },
 
@@ -65,7 +65,7 @@
         "imgsrc":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/3/1/0/FNM_040111-WN-Dinners-030_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371595164628.jpeg",
         "id":7,
         "isMostOrdered":true,
-        "category": ["lunch"],
+        "tags": ["lunch"],
         "weight":0
     },
 
@@ -75,7 +75,7 @@
         "imgsrc":"https://previews.123rf.com/images/alisafarov/alisafarov1702/alisafarov170200198/72220063-puff-pastry-napoleon-cake-isolated-on-a-white-background-selective-focus.jpg",
         "id":8,
         "isMostOrdered":false,
-        "category": ["dessert"],
+        "tags": ["dessert"],
         "weight":0
     },
 
@@ -85,7 +85,7 @@
         "imgsrc":"https://draxe.com/wp-content/uploads/2022/12/DrAxeOrangeJuiceThumbnail.jpg",
         "id":9,
         "isMostOrdered":false,
-        "category": ["drinks"],
+        "tags": ["drinks"],
         "weight":0
     },
 
@@ -95,7 +95,7 @@
         "imgsrc":"https://telegraf.com.ua/static/storage/thumbs/1080x1080/0/64/8c8a57c1-58219a8c2aab2054205a3249df7d2640.jpeg?v=7105_1",
         "id":10,
         "isMostOrdered":false,
-        "category": ["ukrainian", "dessert"],
+        "tags": ["ukrainian", "dessert"],
         "weight":0 
     },
     {
@@ -104,7 +104,7 @@
         "imgsrc":"https://img.freepik.com/premium-photo/bowl-of-beet-root-soup-borsch-isolated-on-white-background_93675-139433.jpg",
         "id":11,
         "isMostOrdered":true,
-        "category": ["ukrainian", "soup", "lunch"],
+        "tags": ["ukrainian", "soup", "lunch"],
         "weight":0 
     },
 
@@ -114,7 +114,7 @@
         "imgsrc":"https://images.immediate.co.uk/production/volatile/sites/30/2017/11/Vegetable-soup-recipes-1eb6583.jpg?quality=90&resize=556,505",
         "id":12,
         "isMostOrdered":false,
-        "category": ["soup", "lunch"],
+        "tags": ["soup", "lunch"],
         "weight":0 
     },
 
@@ -124,7 +124,7 @@
         "imgsrc":"https://cdn.vox-cdn.com/thumbor/4vV1_vv1lAKPzuTBf-gniYqNou0=/105x0:1885x1335/1400x1400/filters:focal(105x0:1885x1335):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/45676852/20150205-Breslin.0.0.jpg",
         "id":13,
         "isMostOrdered":true,
-        "category": ["breakfast"],
+        "tags": ["breakfast"],
         "weight":0 
     },
 
@@ -134,7 +134,7 @@
         "imgsrc":"https://www.mysugarfreekitchen.com/wp-content/uploads/2020/08/Dairy-Free-Banana-Bread-17.jpg",
         "id":14,
         "isMostOrdered":true,
-        "category": ["lunch"],
+        "tags": ["lunch"],
         "weight":0 
         },
 
@@ -144,7 +144,7 @@
         "imgsrc":"https://goldbelly.imgix.net//uploads/showcase_media_asset/image/166545/Doughnut-Plant-Donuts-3.30.22-17-72ppi-1x1.jpg",
         "id":15,
         "isMostOrdered":false,
-        "category": ["dessert"],
+        "tags": ["dessert"],
         "weight":0 
     },
 
@@ -154,7 +154,7 @@
         "imgsrc":"https://s3.envato.com/files/326250274/3983.jpg",
         "id":16,
         "isMostOrdered":false,
-        "category": ["ukrainian"],
+        "tags": ["ukrainian"],
         "weight":0 
     },
 
@@ -164,7 +164,7 @@
         "imgsrc":"https://www.twosisterscrafting.com/wp-content/uploads/2021/02/no-bake-cherry-cheesecake-featured.jpg",
         "id":17,
         "isMostOrdered":true,
-        "category": ["dessert"],
+        "tags": ["dessert"],
         "weight":0 
     },
 
@@ -174,7 +174,7 @@
         "imgsrc":"https://i5.walmartimages.ca/images/Enlarge/058/930/6000201058930.jpg",
         "id":18,
         "isMostOrdered":true,
-        "category": ["dessert", "vegetarian"],
+        "tags": ["dessert", "vegetarian"],
         "weight":0 
     },
 
@@ -184,7 +184,7 @@
         "imgsrc":"https://img.freepik.com/premium-photo/green-salad-plate-isolated-white-background-healthy-eating-top-view_106885-3258.jpg?w=2000",
         "id":19,
         "isMostOrdered":true,
-        "category": ["lunch", "salad"],
+        "tags": ["lunch", "salad"],
         "weight":0 
     },
 
@@ -194,7 +194,7 @@
         "imgsrc":"https://images.themodernproper.com/billowy-turkey/production/posts/2021/Poke-Bowl-11.jpeg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1644553103&s=e3d80debf17159866b52147db4167ef7",
         "id":20,
         "isMostOrdered":true,
-        "category": ["lunch"],
+        "tags": ["lunch"],
         "weight":0 
     },
 
@@ -204,7 +204,7 @@
         "imgsrc":"https://media.istockphoto.com/id/529980296/photo/greek-salad.jpg?s=612x612&w=0&k=20&c=Szm76jqYR-5VmKkj-kPSTZAWYbDNSJRjWgIXeKZ3RNA=",
         "id":21,
         "isMostOrdered":true,
-        "category": ["lunch", "salad"],
+        "tags": ["lunch", "salad"],
         "weight":0 
     },
 
@@ -214,7 +214,7 @@
         "imgsrc":"https://img.freepik.com/premium-photo/bowl-oatmeal-isolated-white-background-top-view_88281-5736.jpg?w=2000",
         "id":22,
         "isMostOrdered":true,
-        "category": ["lunch", "salad"],
+        "tags": ["lunch", "salad"],
         "weight":0 
     },
 
@@ -224,7 +224,7 @@
         "imgsrc":"https://media.istockphoto.com/id/1090831256/photo/grilled-steak-with-asparagus.jpg?s=612x612&w=0&k=20&c=pI4tVO6NwXKdCpsgpygrBpCd7xgFAlRnnIpSbKGjTWo=",
         "id":23,
         "isMostOrdered":true,
-        "category": ["lunch", "meat"],
+        "tags": ["lunch", "meat"],
         "weight":0 
     },
 
@@ -234,7 +234,7 @@
         "imgsrc":"https://media.istockphoto.com/id/913903862/photo/healthy-vegan-buddha-bowl-top-view-isolated-on-white.jpg?s=612x612&w=0&k=20&c=4Vjb_Qx8eRFyEMbG_IAIB-ZQ949qPDILX6rXOmksWMQ=",
         "id":24,
         "isMostOrdered":true,
-        "category": ["breakfast", "salad", "vegetarian"],
+        "tags": ["breakfast", "salad", "vegetarian"],
         "weight":0 
     },
 
@@ -244,7 +244,7 @@
         "imgsrc":"https://static.toiimg.com/thumb/54190359.cms?imgsize=113520&width=800&height=800",
         "id":25,
         "isMostOrdered":false,
-        "category": ["soup", "lunch"],
+        "tags": ["soup", "lunch"],
         "weight":0 
     },
 
@@ -254,7 +254,7 @@
         "imgsrc":"https://thumbs.dreamstime.com/b/meat-salad-roast-beef-mushrooms-potatoes-onions-mix-spices-isolated-white-background-top-view-vegetables-125108838.jpg",
         "id":26,
         "isMostOrdered":true,
-        "category": ["lunch", "meat"],
+        "tags": ["lunch", "meat"],
         "weight":0 
     }
 

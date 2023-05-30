@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Menu = styled.div`
-    padding-top: 80px;
+    // padding-top: 80px;
     padding-bottom: 80px;   
 `;
 
