@@ -14,7 +14,7 @@ const ProductItem = ({ name, price, quantity, isMostOrdered, id, img }) => {
             </InfoBox>
             <OrderBox>
                 <Button>Order</Button>
-                <AmountInput type="number" value={amount}/>
+                {/* <AmountInput type="number" value={amount}/> */}
             </OrderBox>
 
 

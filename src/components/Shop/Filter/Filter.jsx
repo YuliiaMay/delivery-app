@@ -1,4 +1,5 @@
-import {FiterSection, FiterContainer, TagsList, TagsItem, Tag} from "./Filter.styled";
+import { nanoid } from "nanoid";
+import { FiterSection, FiterContainer, TagsList, TagsItem, Tag } from "./Filter.styled";
 
 
 const Filter = ({ tags, onClick }) => {
@@ -8,7 +9,7 @@ const Filter = ({ tags, onClick }) => {
                 <TagsList>
                     {
                         tags.map(tag => 
-                            <TagsItem>
+                            <TagsItem key={nanoid()}>
                                 <Tag
                                     type="button"
                                     value={tag}
@@ -18,7 +19,6 @@ const Filter = ({ tags, onClick }) => {
                             </TagsItem>
                         )
                     }
-
                 </TagsList>
             </FiterContainer>
         </FiterSection>

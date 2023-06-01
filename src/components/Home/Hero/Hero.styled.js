@@ -17,8 +17,6 @@ export const Container = styled.div`
     align-items: end;
 `;
 
-
-
 export const InfoBlock = styled.div`
     width: 600px;
     padding: 30px;

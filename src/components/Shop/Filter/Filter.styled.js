@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { NavLink } from "react-router-dom";
 
 
 export const FiterSection = styled.div`
@@ -18,7 +17,7 @@ export const FiterContainer = styled.div`
 export const TagsList = styled.ul`
     display: flex;
     justify-content: space-around;
-    gap: 18px;
+    gap: 16px;
 `;
 
 export const TagsItem = styled.li`
@@ -29,15 +28,12 @@ export const Tag = styled.button`
 
     border-radius: 8px;
     padding: 8px;
-    
     text-transform: uppercase;
     font-family: Pangolin;
     font-size: 18px;
-
-
-        background-color: rgba(241, 33, 45, 0.5);
-        border: 2px solid rgba(241, 33, 45, 0.5);
-        color: #fff;
+    background-color: rgba(241, 33, 45, 0.5);
+    border: 2px solid rgba(241, 33, 45, 0.5);
+    color: #fff;
 
     &:hover,
     &:focus,

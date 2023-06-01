@@ -6,8 +6,9 @@ import Filter from "../../components/Shop/Filter/Filter";
 
 const ShopPage = () => {
     const [menu, setMenu] = useState([]);
-    const [filtredMenu, setFilteredMenu] = useState([]);
+    // const [filtredMenu, setFilteredMenu] = useState([]);
     const [tags, setTags] = useState([]);
+    const [choosenCategory, setChoosenCategory] = useState(null);
 
     useEffect(() => {
         async function getMenu() {
@@ -17,9 +18,10 @@ const ShopPage = () => {
 
                 
                 const uniqueTags = data
-                .flatMap(item => item.tags)
-                .filter((tag, index, array) => array.indexOf(tag) === index);
-                // .sort((a, b) => a.localeCompare(b));   
+                    .flatMap(item => item.tags)
+                    .filter((tag, index, array) => array.indexOf(tag) === index)
+                    .sort((a, b) => a.localeCompare(b));   
+
                 setTags(uniqueTags);
 
                 return data;
@@ -31,21 +33,48 @@ const ShopPage = () => {
         getMenu();
     }, []);
 
+    // useEffect(() => {
+    //     try {
+    //         const filteredMenu = menu.filter((item) => {
+    //             // console.log(item.tags.includes(choosenCategory));
+    //             // if (item.tags.includes(choosenCategory)) {
+    //             //     return item;
+    //             // }
+    //             console.log(item.includes(choosenCategory));
+                
+
+                
+    //         });
+    //         return filteredMenu;
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    // }, [choosenCategory])
+
     const handleChooseCategory = ({ target }) => {
-        const chooseCategory = target.value;
-        return chooseCategory;
+        const category = target.value;
+        setChoosenCategory(category);
     };
 
-    const handleFilter = (chooseCategory) => {
-        console.log(chooseCategory);
-    };
 
+    const filterMenu = () => {
+        const filteredMenu = menu.filter((item) => {
+            if (item.tags.includes(choosenCategory)) {
+                return item;
+            }
+        })
+        return filteredMenu;
+    }
 
 
     return ( 
         <>
             <Filter tags={tags} onClick={handleChooseCategory} />
-            <MenuList menu={menu} onChange={handleFilter} />
+            {
+                choosenCategory
+                    ? <MenuList menu={filterMenu()} />
+                    : <MenuList menu={menu} />
+            }
         </>
     );
 }
